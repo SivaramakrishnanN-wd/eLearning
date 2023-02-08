@@ -1,0 +1,215 @@
+#banner1
+{
+    display:flex;
+    height:100vh;
+    width:100%;
+    background-size:100% 100%,100% 100%,100% 100%,cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Images/BG-1.jpg");
+    background-repeat:no-repeat;
+}
+.banner10
+{
+    display:flex;
+    height:80vh;
+    width:100%;
+    background-size:100% 100%,100% 100%,100% 100%,cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./Images/BG-1.jpg");
+    background-repeat:no-repeat;
+}
+.container20
+{
+    font-family:MohrRounded-Semibold;
+    font-size:1.4rem;
+    color:#ffffff;
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1
+{
+    position:absolute;
+    z-index:1;
+    margin-top:15%;
+    margin-left:10%;
+    width:50%;
+    overflow:hidden;   
+}
+.container1 h4
+{
+    font-family:MohrRounded-Semibold;
+    font-size:1.4rem;
+    color:#06bbcc;
+}
+.container1 p
+{
+    font-family:MohrRounded-Semibold;
+    font-size:3.2rem;
+    color:#ffffff;
+}  
+.container1 span
+{
+    font-family:MohrRounded-Semibold;
+    font-size:1.2rem;
+    color:#ffffff;  
+}
+.button
+{
+    margin-top:5%;
+    width:100%;
+}
+.button button
+{
+    width:25%;
+    padding:2% 2.5%;
+    font-family:MohrRounded-Semibold;
+    font-size:1rem;  
+}
+.button .button1
+{
+    background-color: #06bbcc;
+    color:#ffffff;
+    border-color:#06bbcc;
+}
+#banner2
+{
+    margin-top:5%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    font-family: MohrRounded-Semibold;
+}
+.container2
+{
+    background-color:#dcf5f7;
+    margin:0.5%;
+    padding:2% 1%;
+    height:210px;
+    width:18%;
+    text-align: center;
+    transform: translateY(10px);
+    transition: transform 0.5s;
+}
+.container3
+{
+    background-color:#dcf5f7;
+    margin:1%;
+    padding:2% 1%;
+    height:200px;
+    width:18%;
+    text-align: center;
+    transform: translateY(10px);
+    transition: transform 0.5s;
+}
+.container4
+{
+    background-color:#dcf5f7;
+    margin:1%;
+    padding:2% 1%;
+    height:200px;
+    width:18%;
+    text-align: center;
+    transform: translateY(10px);
+    transition: transform 0.5s;
+
+}
+.container5
+{
+    background-color:#dcf5f7;
+    margin:1%;
+    height:200px;
+    padding:2% 1%;
+    width:18%;
+    text-align: center;
+    transform: translateY(10px);
+    transition: transform 0.5s;
+}
+.container2:hover
+{
+    transform: translateY(0px);
+    background-color: #06bbcc;
+    color:#ffffff;
+}
+.container3:hover
+{
+    transform: translateY(0px);
+    background-color: #06bbcc;
+    color:#ffffff;
+}
+.container4:hover
+{
+    transform: translateY(0px);
+    background-color: #06bbcc;
+    color:#ffffff;
+}
+.container5:hover
+{
+    transform: translateY(0px);
+    background-color: #06bbcc;
+    color:#ffffff;
+}
+
+@media all and (max-width: 1024px)
+{
+    .container1
+    {
+     width:70%;
+    } 
+    .button button
+    {
+    padding:0% 0%;
+    font-size: 1.2rem;
+    }
+}
+@media all and (max-width: 990px)
+{
+    .container1
+    {
+     width:90%;
+    } 
+    #banner2    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container2
+    {
+        width:70%;
+    }
+    .container3
+    {
+        width:70%;
+    }
+    .container4
+    {
+        width:70%;
+    }
+    .container5
+    {
+        width:70%;
+    }
+}
+@media all and (max-width: 620px)
+{
+    .container1
+{
+    margin-top:20%;  
+}
+.container1 h4
+{
+    font-size:1.2rem;
+}
+.container1 p
+{
+    font-size: 2.5rem;
+}  
+.container1 span
+{
+    font-size:0.8rem;
+}
+.button button
+{
+    font-size:0.8rem;  
+}
+}

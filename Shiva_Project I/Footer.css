@@ -1,0 +1,234 @@
+footer
+{
+    width:100%;
+    background-color:#181d38;
+    height:auto;
+}
+.footer_main
+{
+    width:100%;
+    font-family: MohrRounded-Semibold;
+    height:60vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer1
+{
+    height:40%;
+    width:15%;
+}
+.footer1_1 ol
+{
+    list-style-image: url("./Images/Right_arrow.png");
+    font-size: 0.8rem;
+    text-decoration: none;  
+    margin-left: 10%;
+}
+.footer1_1 ol li a
+{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.footer2
+{
+    height:40%;
+    width:18%;
+}
+
+.footer3
+{
+
+    height:40%;
+    width:25%;
+    font-size: 0.6rem;
+}
+.gallery
+{
+    margin-top:15%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.photo_1
+{
+    height: 30%;
+    width:30%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.photo_1 img
+{
+    height: 100%;
+    width:100%;
+}
+.photo_2
+{
+    height: 30%;
+    width:30%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.photo_2 img
+{
+    height: 100%;
+    width:100%;
+}
+
+.photo_3
+{
+    height: 30%;
+    width:30%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.photo_3 img
+{
+    height: 100%;
+    width:100%;
+}
+
+.photo_4
+{
+    height: 30%;
+    width:30%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.photo_4 img
+{
+    height: 100%;
+    width:100%;
+}
+
+.photo_5
+{
+    height: 30%;
+    width:30%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.photo_5 img
+{
+    height: 100%;
+    width:100%;
+}
+
+.photo_6
+{
+    height: 30%;
+    width:30%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.photo_6 img
+{
+    height: 100%;
+    width:100%;
+}
+
+
+.footer4
+{
+    height:40%;
+    width:20%;
+}
+
+.social_media
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.mail
+{
+    background: #ffffff;
+    width: 90%;
+    height: 50px;
+}
+input[type=mail]
+{
+
+    font-family: MohrRounded-Semibold;
+    text-indent: 30px;
+
+}
+.mail > button
+{
+
+    height:50px;
+    width:25%;
+    background-color: #06bbcc;
+    color:#ffffff;
+    font-size:0.8rem; 
+    font-family: MohrRounded-Semibold;
+}
+.footer_second
+{
+    margin-left:6%;
+    color: #ffffff;
+    font-size:0.8rem; 
+    font-family: MohrRounded-Semibold;
+}
+.footer_Third
+{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end; 
+    align-items: center;  
+}
+.footer_Third li
+{
+    padding:10px 15px;
+}
+.footer_Third li a
+{
+    color: #ffffff;
+    font-size:0.8rem; 
+    font-family: MohrRounded-Semibold;
+}
+
+@media all and (max-width: 1024px)
+{
+    .footer_main
+    {
+        display: flex;
+        flex-direction: column;
+        height:auto;
+    }
+    .footer1
+    {
+        width:60%;
+        margin-bottom:2%
+    }
+    .footer2
+    {
+        width:60%;
+        margin-bottom:2%
+    }
+    .footer3
+    {
+        width:60%;
+        margin-bottom:2%
+    }
+    .footer4
+    {
+        width:60%;
+        margin-bottom:2%
+    }
+    .mail
+    {
+        width: 60%;
+    }
+}

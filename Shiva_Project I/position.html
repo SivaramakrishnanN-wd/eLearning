@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+    font-family:MohrRounded-Semibold;
+    src: url(./Fonts/MohrRounded-SemiBold.ttf);
+}
+#banner4
+{
+width:100%;
+height:100vh;
+}
+.heading
+{
+    font-family:MohrRounded-Semibold;
+    width:100%;
+    text-align: center;
+}
+.heading > p
+{
+    font: size 1.2em;
+    color: #06bbcc;
+}   
+.heading > span
+{
+    font-size:3rem;
+    color:#000;
+}
+.container11
+{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+.leftside
+{
+    width:80%;
+    height:100%;
+    display: flex;
+    margin-left:7%;
+}
+.rightside
+{
+    width:70%;
+    height:100%;
+    margin-left:1%;
+}
+.rightside img
+{
+    height:100%;
+    width:100%;
+}
+#banner4 img > *
+{
+    height:100%;
+    width:100%;
+}
+.left1
+{
+    width:100%;
+    height:60%;
+
+}
+.left1 img
+{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+.Web_design
+{
+    position: absolute;
+    bottom:0%;
+    right:0%;
+    background-color: #fff;
+    font-family:MohrRounded-Semibold;
+    font-size: 0.8rem;
+    color:#000;
+    
+}
+
+.left2
+{
+    display: flex;
+    height:60%;
+    width:100%;
+    margin-top:2%;
+}
+.left2_1
+{
+    width:48%;
+    height:100%;
+}
+.left2_1 img
+{
+    height:100%;
+    width:100%;
+}
+.left2_2
+{
+    width:48%;
+    height:100%;
+    margin-left:2%;
+}
+.left2_2 img
+{
+    height:100%;
+    width:100%;
+}
+@media all and (max-width:1100px)
+{
+    #banner4
+    {
+        width:100%;
+        height:auto;
+    }
+    .container11
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+        width:100%; 
+
+    }
+    .leftside 
+    {    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:70%;
+    }
+    .rightside
+    {
+        width:70%;
+        height:30%;
+        margin-left:6.5%;
+    }
+    .left2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .left2_1
+    {
+        width:100%;
+    }
+    .left2_2
+    {
+        margin-left: 0%;
+        width:100%;
+    }
+}
+</style>
+<body>
+    <div class="heading">
+        <p>CATEGORIES</p>
+      
+        <span>Courses Categories</span>
+      </div>
+
+      <section id="banner4">
+ 
+        
+          <div class="container11">
+            <div class="leftside">
+                <div class="left1">
+                    <img src="./Images/Course1.jpg" alt="logo">
+                    <div class="Web_design"> <h1> Web design <br> 49 Course
+                    </h1> 
+                </div>
+                <div class="left2">
+                    <div class="left2_1">
+                        <img src="./Images/Course2.jpg" alt="">
+                    </div>
+                    <div class="left2_2">
+                        <img src="./Images/Course3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="rightside">
+                    <img src="./Images/Course4.jpg" alt="">
+            </div>
+          </div>
+    </section>
+<script>
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+#banner3
+{
+    display: flex;
+    width:100%;
+    height:auto;
+}
+.container6
+{
+    width:40%;
+    background-image:url("./Images/Girl.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left:5%;
+    margin-top:7%;
+    height:80vh;
+}
+.container7
+{
+    margin-top:7%;
+    margin-left:5%;
+    font-family: MohrRounded-Semibold;
+    width:40%;
+}
+.container7 > h5
+{
+    color: #06bbcc;
+    font-size: 1rem;
+}
+.container7 > h3
+{
+    color: #181d38;
+    font-size: 2.7rem;
+}
+.container7 > p
+{
+    font-size: 1rem;
+    color: #525e75;
+}
+.container7  li
+{
+    color: #525e75;
+    font-size: 1rem;
+    list-style-type:url("./Images/arrow2.png")
+}
+.container8
+{
+    display: flex;
+    margin-top: 5%;
+}
+.container10
+{
+    margin-left: 10%;
+}
+.button3 button
+{
+   width:35%;
+   margin-top:5%;
+   padding:3% 7%;
+   border:solid;
+   font-size: 1rem;
+   color: #ffffff;
+   background-color: #06bbcc;
+   font-family: MohrRounded-Semibold;
+   cursor: pointer;
+
+}
+@media all and (max-width: 1230px)
+{
+    #banner3
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container6
+    {
+        margin-left:0%;
+        width:70%;
+        border:solid;
+    }
+    .container7
+    {
+        margin-top:7%;
+        margin-left:0%;
+        width:70%;
+    }
+}
